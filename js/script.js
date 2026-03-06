@@ -44,7 +44,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
 
     // Admin login
     if(user === "azizbek1230" && pass === "azizbek1230"){
-        window.location = "admin.html"
+        window.location = "pages/admin.html"
         return
     }
 
@@ -59,7 +59,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
         localStorage.setItem("visitors", visitors)
 
         localStorage.setItem("currentUser", user)
-        window.location = "quiz.html"
+        window.location = "pages/quiz.html"
 
     }else{
         alert("Login yoki parol xato!")
