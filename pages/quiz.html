@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz Test</title>
+<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+<div class="quiz-container">
+
+<h1>Quiz Time</h1>
+
+<div id="quiz-card" class="card">
+
+<div id="start-screen">
+    <h2>Ready to start the quiz?</h2>
+    <button id="start-btn">Start Quiz</button>
+</div>
+
+<div id="question-screen" style="display:none">
+    <h2 id="question">Question</h2>
+
+    <div id="options"></div>
+
+    <div class="timer-bar">
+        <div id="timer-progress"></div>
+    </div>
+
+    <p id="timer-text">Time: 30s</p>
+</div>
+
+</div>
+
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
